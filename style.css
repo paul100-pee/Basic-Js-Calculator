@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(241, 187, 196);
+}
+
+h1{
+    color: brown;
+    font-family: cursive;
+    margin: 8px;
+    font-size: 40px;
+}
+
+.button{
+    padding: 30px;
+    margin: 1.5px;
+    cursor: pointer;
+    color: white;
+    background-color: brown;
+    border-radius: 5px;
+    border: 1px white solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+#equals{
+    width: 100%;
+}
+
+table, .show{
+    background-color: rgba(0, 0, 0, 0.137);
+    border-radius: 5px;
+}
+
+#display{
+    margin-bottom: 2px;
+    color: black;
+    font-size: 30px;
+    border: 1px outset rgba(165, 42, 42, 0.842);
+    padding: 10px 30px;
+    font-weight: 600;
+}
+
+.button:hover{
+    background-color: rgb(223, 125, 125);
+    color: black;
+    font-weight: bolder;
+}
